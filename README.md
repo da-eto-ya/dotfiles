@@ -1,4 +1,4 @@
 dotfiles
 ========
 
-Simple .dotfiles config
+Simple .dotfiles configuration with homeshick as manager.
