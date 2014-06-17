@@ -1,4 +1,5 @@
 colorscheme zenburn
 set background=dark
+set spell
 set spelllang=ru,en
 set spellfile=$HOME/.vim/spell/ru.utf-8.add

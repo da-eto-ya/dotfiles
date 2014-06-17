@@ -2,4 +2,5 @@ set t_Co=256
 let g:airline_powerline_fonts=1
 let g:airline_theme="zenburn"
 set fileencodings=ucs-bom,utf-8,utf-16le,cp1251,cp1252,iso-8859-15,latin1
+" let g:spf13_bundle_groups=['general', 'programming', 'misc', 'scala', 'youcompleteme']
 
