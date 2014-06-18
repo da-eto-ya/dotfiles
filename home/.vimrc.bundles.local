@@ -1,7 +1,8 @@
 " Emmet (Zen Coding)
 Bundle 'mattn/emmet-vim'
-let g:user_emmet_leader_key='<C-Z>'
 
 " Liquid syntax (template language)
 Bundle "tpope/vim-liquid"
 
+" Translator (via Google Translate)
+Bundle "maksimr/vim-translator"

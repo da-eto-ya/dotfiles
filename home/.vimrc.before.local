@@ -1,6 +1,26 @@
-set t_Co=256
-let g:airline_powerline_fonts=1
-let g:airline_theme="zenburn"
-set fileencodings=ucs-bom,utf-8,utf-16le,cp1251,cp1252,iso-8859-15,latin1
-" let g:spf13_bundle_groups=['general', 'programming', 'misc', 'scala', 'youcompleteme']
+" Vim bundles local configuration {
+" vim: set sw=4 ts=4 sts=4 et tw=78 foldmarker={,} foldlevel=0 foldmethod=marker:
+" }
 
+" Term {
+    set t_Co=256
+    set fileencodings=ucs-bom,utf-8,utf-16le,cp1251,cp1252,iso-8859-15,latin1
+" }
+
+" spf13 {
+"   let g:spf13_bundle_groups=['general', 'programming', 'misc', 'scala', 'youcompleteme']
+" }
+
+" Airline {
+    let g:airline_powerline_fonts=1
+    let g:airline_theme="zenburn"
+    let g:airline_detect_paste=1
+" }
+
+" Emmet {
+    let g:user_emmet_leader_key='<C-Z>'
+" }
+
+" Translator (maksimr/vim-translator) {
+    let g:goog_user_conf = { 'langpair': 'auto|ru', 'cmd': 'node', 'v_key': 'T' }
+" }

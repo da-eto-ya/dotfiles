@@ -1,5 +1,24 @@
-colorscheme zenburn
-set background=dark
-set spell
-set spelllang=ru,en
-set spellfile=$HOME/.vim/spell/ru.utf-8.add
+" Vim local configuration {
+" vim: set sw=4 ts=4 sts=4 et tw=78 foldmarker={,} foldlevel=0 foldmethod=marker:
+" }
+
+" Colors {
+    colorscheme zenburn
+    set background=dark
+" }
+
+" Spelling {
+    set spell
+    set spelllang=ru,en
+    set spellfile=$HOME/.vim/spell/ru.utf-8.add
+" }
+
+" Shortcuts {
+    noremap <NL> i<CR><Esc>
+" }
+
+" Russian keyboard mappings {
+    if filereadable(expand("~/.vimrc.russian-mappings")) 
+        source ~/.vimrc.russian-mappings
+    endif
+" }
